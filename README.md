@@ -66,10 +66,10 @@ The dataset used (`BlinkIT_Grocery_Data`) includes the following key columns:
 - "SQL Server / MySQL / PostgreSQL" (Queries are written in ANSI SQL and easily portable)
 - Data sourced from "Kaggle" : https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset?select=Tableau+BlinkIT+Grocery+Project+U16955293080+%284%29.xlsx
 
-📁 File Structure
+📁 File Structure 
 
 ```bash
 📦Blinkit-Sales-Analysis-SQL-Project
  ┣ 📜 BLINKIT_SQL_QUERY.sql      # All SQL queries for analysis
- ┣ 📄 README.md                # Project overview and documentation
- ┗ 📊 BlinkIT_Grocery_Data.csv         # (Optional) Sample dataset from Kaggle
+ ┣ 📊 BlinkIT_Grocery_Data.csv         # (Optional) Sample dataset from Kaggle
+ ┗ 📄 README.md                # Project overview and documentation
