@@ -75,7 +75,7 @@ The dataset used (`BlinkIT_Grocery_Data`) includes the following key columns:
 🧰 Tools & Technologies
 
 - "SQL Server / MySQL / PostgreSQL" (Queries are written in ANSI SQL and easily portable)
-- Dataset [Data sourced from Kaggle](https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset?select=Tableau+BlinkIT+Grocery+Project+U16955293080+%284%29.xlsx)
+- Dataset: [Data sourced from Kaggle](https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset?select=Tableau+BlinkIT+Grocery+Project+U16955293080+%284%29.xlsx)
 
 📁 File Structure 
 
