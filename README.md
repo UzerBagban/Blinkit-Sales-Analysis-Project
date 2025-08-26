@@ -89,5 +89,5 @@ A Power BI dashboard was created to visualize sales performance and outlet insig
 
 - "SQL Server / MySQL / PostgreSQL" (Queries are written in ANSI SQL and easily portable)
 - Power BI – Dashboard creation & data visualization
-- Dataset: [Data sourced from Kaggle](https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset?select=Tableau+BlinkIT+Grocery+Project+U16955293080+%284%29.xlsx)
+- Dataset Download: [BlinkIT Grocery Data](https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset?select=Tableau+BlinkIT+Grocery+Project+U16955293080+%284%29.xlsx)
 
