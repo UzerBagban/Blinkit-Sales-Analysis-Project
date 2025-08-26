@@ -1,6 +1,8 @@
 🛒 Blinkit Sales Analysis (SQL + Power BI Project)
 
-This project consists of SQL queries and data exploration tasks performed on the "Blinkit Sales Dataset," downloaded from Kaggle. The goal is to examine the sales of products, fat content distribution, ratings, outlet performance, and sales trends across various dimensions like year, product type, outlet type, and location. The project also includes an interactive Power BI dashboard for visual data exploration.
+This project focuses on the analysis of sales data using SQL based on the Blinkit Grocery Dataset (from Kaggle), i.e., for data exploration & insights, and then creating an interactive visualization with Power BI.
+
+The goal is to find trends in sales, product performance, outlet presence/distribution, etc., and provide actionable business insights.
 
 📊 Dataset Overview
 
