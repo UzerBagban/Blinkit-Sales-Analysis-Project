@@ -8,29 +8,29 @@ The goal is to find trends in sales, product performance, outlet presence/distri
 
 The dataset used (`BlinkIT_Grocery_Data`) includes the following key columns:
 
-• Item_Identifier: A unique ID for each product in the dataset.
+- Item_Identifier: A unique ID for each product in the dataset.
 
-•	Item_Weight: The weight of the product.
+-	Item_Weight: The weight of the product.
 
-•	Item_Fat_Content: Indicates whether the product is low fat or not.
+-	Item_Fat_Content: Indicates whether the product is low fat or not.
 
-•	Item_Visibility: The percentage of the total display area in the store that is allocated to the specific product.
+-	Item_Visibility: The percentage of the total display area in the store that is allocated to the specific product.
 
-•	Item_Type: The category or type of product.
+-	Item_Type: The category or type of product.
 
-•	Item_MRP: The maximum retail price (list price) of the product.
+-	Item_MRP: The maximum retail price (list price) of the product.
 
-•	Outlet_Identifier: A unique ID for each store in the dataset.
+-	Outlet_Identifier: A unique ID for each store in the dataset.
 
-•	Outlet_Establishment_Year: The year in which the store was established.
+-	Outlet_Establishment_Year: The year in which the store was established.
 
-•	Outlet_Size: The size of the store in terms of ground area covered.
+-	Outlet_Size: The size of the store in terms of ground area covered.
 
-•	Outlet_Location_Type: The type of city or region in which the store is located.
+-	Outlet_Location_Type: The type of city or region in which the store is located.
 
-•	Outlet_Type: Indicates whether the store is a grocery store or a supermarket.
+-	Outlet_Type: Indicates whether the store is a grocery store or a supermarket.
 
-•	Item_Outlet_Sales: The sales of the product in the particular store. This is the outcome variable that we want to predict.
+-	Item_Outlet_Sales: The sales of the product in the particular store. This is the outcome variable that we want to predict.
 
 🛠️ Project Goals
 
@@ -74,25 +74,25 @@ A Power BI dashboard was created to visualize sales performance and outlet insig
 
 🔑 Dashboard Highlights
 
-  • Total Sales: $1.20M
-  
-  • No. of Items: 8,523
-  
-  • Average Sales: $141
-  
-  • Average Rating: 3.9
-  
-  • Sales by Item Type: Frozen Foods, Dairy, Household, Snacks are top contributors
-  
-  • Fat Content Analysis: Low Fat vs Regular sales split
-  
-  • Outlet Establishment Trend: Peak sales observed in 2018
-  
-  • Sales by Outlet Size: Medium outlets perform the best
-  
-  • Sales by Outlet Location: Tier 3 cities lead in sales
-  
-  • Outlet Type Comparison: Supermarket Type1 contributes ~65% of total revenue
+- Total Sales: $1.20M
+
+- No. of Items: 8,523
+
+- Average Sales: $141
+
+- Average Rating: 3.9
+
+- Sales by Item Type: Frozen Foods, Dairy, Household, Snacks are top contributors
+
+- Fat Content Analysis: Low Fat vs Regular sales split
+
+- Outlet Establishment Trend: Peak sales observed in 2018
+
+- Sales by Outlet Size: Medium outlets perform the best
+
+- Sales by Outlet Location: Tier 3 cities lead in sales
+
+- Outlet Type Comparison: Supermarket Type1 contributes ~65% of total revenue
 
 💡 Business Insights
 
