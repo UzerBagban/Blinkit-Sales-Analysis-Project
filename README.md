@@ -74,25 +74,25 @@ A Power BI dashboard was created to visualize sales performance and outlet insig
 
 🔑 Dashboard Highlights
 
-  Total Sales: $1.20M
-  
-  No. of Items: 8,523
-  
-  Average Sales: $141
-  
-  Average Rating: 3.9
-  
-  Sales by Item Type: Frozen Foods, Dairy, Household, Snacks are top contributors
-  
-  Fat Content Analysis: Low Fat vs Regular sales split
-  
-  Outlet Establishment Trend: Peak sales observed in 2018
-  
-  Sales by Outlet Size: Medium outlets perform the best
-  
-  Sales by Outlet Location: Tier 3 cities lead in sales
-  
-  Outlet Type Comparison: Supermarket Type1 contributes ~65% of total revenue
+• Total Sales: $1.20M
+
+• No. of Items: 8,523
+
+• Average Sales: $141
+
+• Average Rating: 3.9
+
+• Sales by Item Type: Frozen Foods, Dairy, Household, Snacks are top contributors
+
+• Fat Content Analysis: Low Fat vs Regular sales split
+
+• Outlet Establishment Trend: Peak sales observed in 2018
+
+• Sales by Outlet Size: Medium outlets perform the best
+
+• Sales by Outlet Location: Tier 3 cities lead in sales
+
+• Outlet Type Comparison: Supermarket Type1 contributes ~65% of total revenue
 
 💡 Business Insights
 
