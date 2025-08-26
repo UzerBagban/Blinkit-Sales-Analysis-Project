@@ -1,6 +1,6 @@
-🛒 Blinkit Sales Analysis (SQL Project)
+🛒 Blinkit Sales Analysis (SQL + Power BI Project)
 
-This project includes SQL queries and data exploration steps carried out on the "Blinkit Sales Dataset", obtained from Kaggle. The objective is to analyze the sales of items, the distribution of fat content, ratings, outlet performance, and sales trends at different dimensions such as year, item type, outlet type, and location.
+This project consists of SQL queries and data exploration tasks performed on the "Blinkit Sales Dataset," downloaded from Kaggle. The goal is to examine the sales of products, fat content distribution, ratings, outlet performance, and sales trends across various dimensions like year, product type, outlet type, and location. The project also includes an interactive Power BI dashboard for visual data exploration.
 
 📊 Dataset Overview
 
@@ -32,11 +32,12 @@ The dataset used (`BlinkIT_Grocery_Data`) includes the following key columns:
 
 🛠️ Project Goals
 
-- Clean and standardize the data
-- Perform aggregations (SUM, AVG, COUNT)
-- Analyze sales by category, fat content, outlet location/type/year
-- Use SQL features like `CAST`, `PIVOT`, `GROUP BY`, and `ORDER BY`
-- Provide business insights based on metrics
+- Clean and normalize the data
+- Execute aggregations (SUM, AVG, COUNT)
+- Examine sales by category, fat content, outlet location/type/year
+- Utilize SQL functionalities such as `CAST`, `PIVOT`, `GROUP BY`, and `ORDER BY`
+- Develop an interactive Power BI dashboard for visualization
+- Deliver business insights based on metrics
 
 📌 Key SQL Queries
 
@@ -65,22 +66,37 @@ The dataset used (`BlinkIT_Grocery_Data`) includes the following key columns:
 - Sales by `Outlet_Location_Type`
 - Sales breakdown by `Outlet_Type`
 
-💡 Business Insights (Examples)
+📊 Power BI Dashboard
+
+A Power BI dashboard was created to visualize sales performance and outlet insights.
+
+🔑 Dashboard Highlights
+
+  Total Sales: $1.20M
+  No. of Items: 8,523
+  Average Sales: $141
+  Average Rating: 3.9
+  Sales by Item Type: Frozen Foods, Dairy, Household, Snacks are top contributors
+  Fat Content Analysis: Low Fat vs Regular sales split
+  Outlet Establishment Trend: Peak sales observed in 2018
+  Sales by Outlet Size: Medium outlets perform the best
+  Sales by Outlet Location: Tier 3 cities lead in sales
+  Outlet Type Comparison: Supermarket Type1 contributes ~65% of total revenue
+
+💡 Business Insights
 
 - "Low Fat" products account for a large proportion of total sales.
 - Certain item types and store types perform better than others in both average sales and overall revenue.
+- Medium-sized outlets and Tier 3 locations generate the highest revenue.
+- Sales peaked in 2018, followed by stabilization.
+- Supermarkets, particularly Type1, are the major contributors.
 - More recently opened stores (after 2010) are reporting higher sales and customer reviews.
+- Frozen Foods, Dairy, and Household items drive consistent sales.
 - Store location and size directly impact revenue proportion.
 
 🧰 Tools & Technologies
 
 - "SQL Server / MySQL / PostgreSQL" (Queries are written in ANSI SQL and easily portable)
+- Power BI – Dashboard creation & data visualization
 - Dataset: [Data sourced from Kaggle](https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset?select=Tableau+BlinkIT+Grocery+Project+U16955293080+%284%29.xlsx)
 
-📁 File Structure 
-
-```bash
-📦Blinkit-Sales-Analysis-SQL-Project
- ┣ 📜 BLINKIT_SQL_QUERY.sql      # All SQL queries for analysis
- ┣ 📊 BlinkIT_Grocery_Data.csv         # (Optional) Sample dataset from Kaggle
- ┗ 📄 README.md                # Project overview and documentation
