@@ -1,6 +1,6 @@
-🛒 Blinkit Sales Analysis (SQL + Power BI Project)
+🛒 Blinkit Sales Analysis (Python + SQL + Power BI Project)
 
-This project focuses on the analysis of sales data using SQL based on the Blinkit Grocery Dataset (from Kaggle), i.e., for data exploration & insights, and then creating an interactive visualization with Power BI.
+This project focuses on the analysis of sales data using Python for data cleaning and exploration, SQL for data querying and insights, and Power BI for interactive visualization. 
 
 The goal is to find trends in sales, product performance, outlet presence/distribution, etc., and provide actionable business insights.
 
@@ -23,12 +23,34 @@ The dataset used (`BlinkIT_Grocery_Data`) includes the following key columns:
 
 🛠️ Project Goals
 
-- Clean and normalize the data
-- Execute aggregations (SUM, AVG, COUNT)
+🛠️ Project Goals
+- Clean and normalize the data using Python
+- Execute aggregations (SUM, AVG, COUNT) using SQL
 - Examine sales by category, fat content, outlet location/type/year
-- Utilize SQL functionalities such as `CAST`, `PIVOT`, `GROUP BY`, and `ORDER BY`
+- Utilize SQL functionalities such as CAST, PIVOT, GROUP BY, and ORDER BY
 - Develop an interactive Power BI dashboard for visualization
-- Deliver business insights based on metrics
+- Deliver business insights based on key metrics
+
+🐍 Python Data Cleaning & Exploration
+
+The Python script (BlinkIT_Analysis.ipynb) performs the following:
+
+✅ Data Cleaning
+
+- Standardized Item_Fat_Content values to "Low Fat" and "Regular"
+- Handled missing values in Item_Weight
+
+📈 Key Performance Indicators (KPIs)
+
+- Total Sales: $1,201,681
+- Average Sales: $141
+- Number of Items Sold: 8,523
+- Average Rating: 4.0
+
+📊 Visualization
+
+- Sales by Fat Content: Pie chart showing Low Fat vs Regular sales distribution
+- Sales by Item Type: Bar chart (planned for Power BI)
 
 📌 Key SQL Queries
 
@@ -87,7 +109,15 @@ A Power BI dashboard was created to visualize sales performance and outlet insig
 
 🧰 Tools & Technologies
 
-- "SQL Server / MySQL / PostgreSQL" (Queries are written in ANSI SQL and easily portable)
+- Python (Pandas, Matplotlib, Seaborn) – Data cleaning and visualization
+- "SQL Server / MySQL / PostgreSQL" (Queries are written in ANSI SQL and easily portable) – Data querying and analysis
 - Power BI – Dashboard creation & data visualization
 - Dataset Download: [BlinkIT Grocery Data](https://www.kaggle.com/datasets/mukeshgadri/blinkit-dataset?select=Tableau+BlinkIT+Grocery+Project+U16955293080+%284%29.xlsx)
+
+📈 How to Use
+
+- Download the dataset from Kaggle and place it in the project directory.
+- Run the Jupyter notebook BlinkIT_Analysis.ipynb to clean and explore the data.
+- Execute the SQL queries in your preferred database environment.
+- Open the Power BI file to interact with the dashboard.
 
